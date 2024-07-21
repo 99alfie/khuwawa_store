@@ -1,5 +1,31 @@
+$lato-font-path: './lato/';
 $graphik-font-path: './graphik/';
 $bradford-font-path: './bradford/';
+
+
+@font-face {
+  font-family: 'Lato';
+  src: url('#{lato-font-path}Lato-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato Bold';
+  src: url('#{lato-font-path}Lato-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato Black';
+  src: url('#{lato-font-path}Lato-Black.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 @font-face {
   font-family: 'Graphik';
